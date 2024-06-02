@@ -1,0 +1,62 @@
+section{
+    background-color: #007bff;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.card {
+    border: none;
+    background-color: white;
+    transition: all 0.1s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+.card-body{
+    padding: 3rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+.card-body hr {
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.card-title {
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-cost {
+    font-size: 3rem;
+    margin: 0;
+    text-align: center;
+}
+
+.btn{
+    font-weight: bold;
+    padding: 1rem;
+    letter-spacing: 0.1rem;
+    color: antiquewhite;
+}
+
+.text-opac {
+    opacity: 0.4;
+}
+
+@media(min-width: 990px) {
+    .card:hover{
+        margin-top: -0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .btn:hover{
+        background-color: #000dff;
+    }
+}
